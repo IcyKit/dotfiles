@@ -8,6 +8,4 @@ const fetchPrice = async (curr) => {
   console.log(`BTC $${Math.floor(data.market_data.current_price.usd)}`);
 };
 
-currArr.forEach(async (curr) => {
-  return await fetchPrice(curr);
-});
+fetchPrice("bitcoin");
