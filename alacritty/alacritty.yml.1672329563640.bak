@@ -528,33 +528,32 @@ schemes:
 # *SolarizedDark
 # *TomorrowNight
 colors:
-  name: Orangish
-  author: ""
+  name: Chalk (dark)
+  author: Chris Kempson
   primary:
-    background: "#000000"
-    foreground: "#ffffff"
+    background: "#151515"
+    foreground: "#d0d0d0"
   cursor:
-    text: "#000000"
-    cursor: "#ffffff"
+    text: "#151515"
+    cursor: "#d0d0d0"
   normal:
-    black: "#251f1f"
-    red: "#eb4509"
-    green: "#94e76b"
-    yellow: "#ffac18"
-    blue: "#46aede"
-    magenta: "#e32c57"
-    cyan: "#d6dbac"
-    white: "#efefef"
+    black: "#151515"
+    red: "#fb9fb1"
+    green: "#acc267"
+    yellow: "#ddb26f"
+    blue: "#6fc2ef"
+    magenta: "#e1a3ee"
+    cyan: "#12cfc0"
+    white: "#d0d0d0"
   bright:
-    black: "#5e5e5e"
-    red: "#eb4509"
-    green: "#95e76b"
-    yellow: "#ffac18"
-    blue: "#46aede"
-    magenta: "#e32c57"
-    cyan: "#d6dbac"
-    white: "#efefef"
-theme: Orangish
+    black: "#505050"
+    red: "#fb9fb1"
+    green: "#acc267"
+    yellow: "#ddb26f"
+    blue: "#6fc2ef"
+    magenta: "#e1a3ee"
+    cyan: "#12cfc0"
+    white: "#f5f5f5"
 
 #######################################
 ##       END OF COLOR SCHEMES        ##
@@ -802,50 +801,50 @@ theme: Orangish
 # binding with the same triggers is defined. To unset a default binding, it can
 # be mapped to the `ReceiveChar` action. Alternatively, you can use `None` for
 # a no-op if you do not wish to receive input characters for that binding.
-# key_bindings:
-#   # (Windows, Linux, and BSD only)
-#   - { key: V, mods: Control|Shift, action: Paste }
-#   - { key: C, mods: Control|Shift, action: Copy }
-#   - { key: Insert, mods: Shift, action: PasteSelection }
-#   - { key: Key0, mods: Control, action: ResetFontSize }
-#   - { key: Equals, mods: Control, action: IncreaseFontSize }
-#   - { key: Plus, mods: Control, action: IncreaseFontSize }
-#   - { key: Minus, mods: Control, action: DecreaseFontSize }
-#   - { key: F11, mods: None, action: ToggleFullscreen }
-#   - { key: Paste, mods: None, action: Paste }
-#   - { key: Copy, mods: None, action: Copy }
-#   - { key: L, mods: Control, action: ClearLogNotice }
-#   - { key: L, mods: Control, chars: "\f" }
-#   - {
-#       key: PageUp,
-#       mods: None,
-#       action: ScrollPageUp,
-#       mode: ~Alt
-#     }
-#   - {
-#       key: PageDown,
-#       mods: None,
-#       action: ScrollPageDown,
-#       mode: ~Alt
-#     }
-#   - {
-#       key: Home,
-#       mods: Shift,
-#       action: ScrollToTop,
-#       mode: ~Alt
-#     }
-#   - {
-#       key: End,
-#       mods: Shift,
-#       action: ScrollToBottom,
-#       mode: ~Alt
-#     }
-# theme: Chalk.dark
-#  mode: ~Alt
-#   - {
-#       key: End,
-#       mods: Shift,
-#       action: ScrollToBottom,
-#       mode: ~Alt
-#     }
-# theme: Catppuccin
+key_bindings:
+  # (Windows, Linux, and BSD only)
+  - { key: V, mods: Control|Shift, action: Paste }
+  - { key: C, mods: Control|Shift, action: Copy }
+  - { key: Insert, mods: Shift, action: PasteSelection }
+  - { key: Key0, mods: Control, action: ResetFontSize }
+  - { key: Equals, mods: Control, action: IncreaseFontSize }
+  - { key: Plus, mods: Control, action: IncreaseFontSize }
+  - { key: Minus, mods: Control, action: DecreaseFontSize }
+  - { key: F11, mods: None, action: ToggleFullscreen }
+  - { key: Paste, mods: None, action: Paste }
+  - { key: Copy, mods: None, action: Copy }
+  - { key: L, mods: Control, action: ClearLogNotice }
+  - { key: L, mods: Control, chars: "\f" }
+  - {
+      key: PageUp,
+      mods: None,
+      action: ScrollPageUp,
+      mode: ~Alt
+    }
+  - {
+      key: PageDown,
+      mods: None,
+      action: ScrollPageDown,
+      mode: ~Alt
+    }
+  - {
+      key: Home,
+      mods: Shift,
+      action: ScrollToTop,
+      mode: ~Alt
+    }
+  - {
+      key: End,
+      mods: Shift,
+      action: ScrollToBottom,
+      mode: ~Alt
+    }
+theme: Chalk.dark
+ mode: ~Alt
+  - {
+      key: End,
+      mods: Shift,
+      action: ScrollToBottom,
+      mode: ~Alt
+    }
+theme: Catppuccin

@@ -528,33 +528,33 @@ schemes:
 # *SolarizedDark
 # *TomorrowNight
 colors:
-  name: Orangish
-  author: ""
+  name: 3024 (dark)
+  author: Chris Kempson
   primary:
-    background: "#000000"
-    foreground: "#ffffff"
+    background: "#090300"
+    foreground: "#a5a2a2"
   cursor:
-    text: "#000000"
-    cursor: "#ffffff"
+    text: "#090300"
+    cursor: "#a5a2a2"
   normal:
-    black: "#251f1f"
-    red: "#eb4509"
-    green: "#94e76b"
-    yellow: "#ffac18"
-    blue: "#46aede"
-    magenta: "#e32c57"
-    cyan: "#d6dbac"
-    white: "#efefef"
+    black: "#090300"
+    red: "#db2d20"
+    green: "#01a252"
+    yellow: "#fded02"
+    blue: "#01a0e4"
+    magenta: "#a16a94"
+    cyan: "#b5e4f4"
+    white: "#a5a2a2"
   bright:
-    black: "#5e5e5e"
-    red: "#eb4509"
-    green: "#95e76b"
-    yellow: "#ffac18"
-    blue: "#46aede"
-    magenta: "#e32c57"
-    cyan: "#d6dbac"
-    white: "#efefef"
-theme: Orangish
+    black: "#5c5855"
+    red: "#db2d20"
+    green: "#01a252"
+    yellow: "#fded02"
+    blue: "#01a0e4"
+    magenta: "#a16a94"
+    cyan: "#b5e4f4"
+    white: "#f7f7f7"
+theme: 3024.dark
 
 #######################################
 ##       END OF COLOR SCHEMES        ##

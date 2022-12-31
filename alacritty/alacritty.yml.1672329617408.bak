@@ -165,8 +165,7 @@ draw_bold_text_with_bright_colors: true
 #######################################
 schemes:
   ### Doom One ###
-  DoomOne:
-    &DoomOne
+  DoomOne: &DoomOne
     primary:
       background: "#282c34"
       foreground: "#bbc2cf"
@@ -196,8 +195,7 @@ schemes:
       white: "#dfdfdf"
 
   ### Dracula ###
-  Dracula:
-    &Dracula
+  Dracula: &Dracula
     primary:
       background: "#282a36"
       foreground: "#f8f8f2"
@@ -528,34 +526,32 @@ schemes:
 # *SolarizedDark
 # *TomorrowNight
 colors:
-  name: Orangish
-  author: ""
+  name: Chalk (dark)
+  author: Chris Kempson
   primary:
-    background: "#000000"
-    foreground: "#ffffff"
+    background: "#151515"
+    foreground: "#d0d0d0"
   cursor:
-    text: "#000000"
-    cursor: "#ffffff"
+    text: "#151515"
+    cursor: "#d0d0d0"
   normal:
-    black: "#251f1f"
-    red: "#eb4509"
-    green: "#94e76b"
-    yellow: "#ffac18"
-    blue: "#46aede"
-    magenta: "#e32c57"
-    cyan: "#d6dbac"
-    white: "#efefef"
+    black: "#151515"
+    red: "#fb9fb1"
+    green: "#acc267"
+    yellow: "#ddb26f"
+    blue: "#6fc2ef"
+    magenta: "#e1a3ee"
+    cyan: "#12cfc0"
+    white: "#d0d0d0"
   bright:
-    black: "#5e5e5e"
-    red: "#eb4509"
-    green: "#95e76b"
-    yellow: "#ffac18"
-    blue: "#46aede"
-    magenta: "#e32c57"
-    cyan: "#d6dbac"
-    white: "#efefef"
-theme: Orangish
-
+    black: "#505050"
+    red: "#fb9fb1"
+    green: "#acc267"
+    yellow: "#ddb26f"
+    blue: "#6fc2ef"
+    magenta: "#e1a3ee"
+    cyan: "#12cfc0"
+    white: "#f5f5f5"
 #######################################
 ##       END OF COLOR SCHEMES        ##
 #######################################
